@@ -1,191 +1,68 @@
 body{
-    width: 100%;
     margin: 0;
     padding: 0%;
-}
-
-img{
     width: 100%;
     height: 100vh;
+    background-color: rgb(174, 0, 255);
+}
+.container{
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    position: absolute; 
+    z-index: 1; 
+}
+
+h1{
     display: grid;
+    color: rgb(3, 3, 3);
     justify-content: space-around;
-    z-index: 0;
-    overflow: hidden;
-}
-main #usuario{
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    width: 170px;
-    height: 35px;
 }
 
-main #senha{
-    z-index: 1;
-    position: absolute;
-    top: 55%;
-    left: 45%;
-    height: 35px;
+#entrarTask{
+    border: 0.5vh solid transparent;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border-radius: 2%;
+    
 }
 
-.btn button{
-    color: white;
-    background-color: rgb(81, 160, 3);
-    width: 20%;
-    height: 65px;
-    border:transparent;
-    border-radius: 12px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-}
-
-.btn button:hover{
-    background-color: rgb(53, 104, 1);
-}
-
-main .btn{
-    position: absolute;
-    top: 60%;
-    left: 45%;
-    align-items: center;
-    align-content: center;
-    width: 20%;
-    height: 70px;
-    z-index: 1;
-}
-
-.btn2 button{
-    color: white;
-    background-color: rgb(81, 160, 3);
-    width: 20%;
-    height: 65px;
-    border:transparent;
-    border-radius: 12px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-}
-
-.btn2 button:hover{
-    background-color: rgb(53, 104, 1);
-}
-
-main .btn2{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    align-items: center;
-    align-content: center;
-    width: 20%;
-    height: 70px;
-    z-index: 1;
-}
-
-main #titulo{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-}
-
-main #titulo h1{
-    text-align: center;
-}
-
-@media screen and(max-width:500px){
+#entrarTask:hover{
+    background-color: #777373;
+}   
+@media screen and (max-width: 500px){
     body{
-        width: 100%;
         margin: 0;
         padding: 0%;
-    }
-    
-    img{
         width: 100%;
         height: 100vh;
+        background-color: rgb(174, 0, 255);
+    }
+    .container{
+        top: 40%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        position: absolute; 
+        z-index: 1; 
+    }
+    
+    h1{
         display: grid;
+        color: rgb(3, 3, 3);
         justify-content: space-around;
-        z-index: 0;
-        overflow: hidden;
-    }
-    main #usuario{
-        z-index: 1;
-        position: absolute;
-        top: 50%;
-        left: 45%;
-        width: 1.7vh;
-        height: 3.5vh;
     }
     
-    main #senha{
-        z-index: 1;
-        position: absolute;
-        top: 55%;
-        left: 45%;
-        height: 3.5vh;
+    #entrarTask{
+        border: 0.5vh solid transparent;
+        font-size: 1.2em;
+        background-color: #ffffff;
+        border-radius: 2%;
+        
     }
     
-    .btn button{
-        color: white;
-        background-color: rgb(81, 160, 3);
-        width: 20%;
-        height: 6.5vh;
-        border:transparent;
-        border-radius: 1.2vh;
-        cursor: pointer;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: medium;
-    }
+    #entrarTask:hover{
+        background-color: #777373;
+    }   
+
     
-    .btn button:hover{
-        background-color: rgb(53, 104, 1);
-    }
-    
-    main .btn{
-        position: absolute;
-        top: 60%;
-        left: 45%;
-        align-items: center;
-        align-content: center;
-        width: 20%;
-        height: 7.0vh;
-        z-index: 1;
-    }
-    
-    .btn2 button{
-        color: white;
-        background-color: rgb(81, 160, 3);
-        width: 20%;
-        height: 6.5vh;
-        border:transparent;
-        border-radius: 1.2vh;
-        cursor: pointer;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: medium;
-    }
-    
-    .btn2 button:hover{
-        background-color: rgb(53, 104, 1);
-    }
-    
-    main .btn2{
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        align-items: center;
-        align-content: center;
-        width: 20%;
-        height: 7.0vh;
-        z-index: 1;
-    }
-    
-    main #titulo{
-        z-index: 1;
-        position: absolute;
-        width: 100%;
-    }
-    
-    main #titulo h1{
-        text-align: center;
-    }
 }
