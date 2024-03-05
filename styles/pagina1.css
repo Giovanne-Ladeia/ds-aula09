@@ -1,0 +1,35 @@
+body header img{
+    width: 4%;
+    height: 4%;
+    z-index: 1;
+}
+
+body header .busca{
+    width: 30%;
+    height: 10%;
+}
+
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+
+
+
+main div{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    align-items: normal;
+    margin-top: 5%;
+    border-color: rgb(99, 99, 99);
+    border-radius: 0.2vh;
+    box-shadow: 2vh;
+}
+
+main div img{
+    width: 80%;
+    height: 80%;
+}
